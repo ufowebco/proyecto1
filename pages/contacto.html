@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/imagenes/sfsf.jpg" type="image/x-icon">
+    <title>Contacto | Madrigal Propiedad Horizontal</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<header>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="./pages/servicios.html">Servicios</a>
+        <a href="./pages/portafolio.html">Portafolio</a>
+        <a href="./pages/nosotros.html">Nosotros</a>
+        <a href="./pages/contacto.html">Contacto</a>
+    </nav>
+</header>
+<main>
+    <form action="">
+        <label>Nombre y Apellido: 
+            <input type="text" name="nombre" placeholder="Nombre y Apellido" required>
+        </label>
+        <label>N° de Teléfono:
+            <input type="text" name="telefono" placeholder="Ingresar número" required>
+        </label>
+        <label>E-mail: 
+            <input type="email" name="mail" placeholder="E-mail" required>
+        </label>
+        <label>Tipo de mensaje
+            <select name="asunto" required>
+                <option value="peticion">Petición</option>
+                <option value="queja">Queja</option>
+                <option value="reclamo">Reclamo</option>
+                <option value="felicitacion">Felicitaciones</option>
+                <option value="otro">Otro...</option>
+            </select>
+        </label>
+        <label>Asunto:
+            <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Dejános tu mensaje" required></textarea>
+        </label>
+        <label>
+            <input type="checkbox" name="acepto" value="si" required> 
+            Acepto términos y condiciones
+        </label>             
+        input
+        <input type="reset" value="Cancelar">
+        <input type="submit" value="Enviar">
+    </form>
+</main>
+<footer>
+
+</footer>
+</html>

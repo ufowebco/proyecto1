@@ -1,3 +1,5 @@
+/*RESETEO*/
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +12,8 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;500&family=Poppins:wght@300&display=swap');
+
+/*FIN RESETEO*/
 
 /*NAVEGADOR PRINCIPAL -- INICIO*/
 
@@ -94,7 +98,99 @@ body {
 
 /*NAVEGADOR CONTACTO -- FINAL*/
 
-/*TITULO DE PAGINA -- INICIO*/
+/*FOOTER -- INICIO*/
+
+footer{
+    background-color: #1B3544;
+}
+
+.footer-preguntas{
+    background-color: #9EAB92;
+    padding: 30px 5% 30px 5%;
+    display: flex;
+    width: 100%;
+}
+
+.footer-preguntas div{
+    width: 100%;
+}
+
+.footer-preguntas .t1{
+    color: #1B3544;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer-preguntas .t2{
+    color: #1B3544;
+    font-size: 18px;
+}
+
+.boton3{
+    background-color: #305e77;
+    border-color: #305e77;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.verde-f2 img{
+    height: 250px;
+}
+
+.footer-logo{
+    padding: 50px 5% 50px 5%;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 50px 5% 50px 5%;
+}
+
+.footer-menu .footer-menu2{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-menu .footer-menu2 li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    padding: 0px 20px;
+    letter-spacing: 1.5px;
+}
+
+.footer-menu .footer-menu2 li :hover{
+    color: #9EAB92;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: overline;
+    transition: 0.2s;
+}
+
+.footer-copy{
+    padding: 20px 5% 20px 5%;
+    background-color: #305e77;
+}
+
+.footer-copy p{
+    color: #fff;
+    text-align: center;
+}
+
+/*FOOTER -- FINAL*/
+
+/*TITULOS DE PAGINAS -- INICIO*/
 
 .titulo-pagina{
     padding: 50px 5% 50px 5%;
@@ -109,6 +205,8 @@ body {
 }
 
 /*TITULO DE PAGINA -- FINAL*/
+
+/*-- PAGINA INICIO -- INICIO --*/
 
 /*BANNER PRINCIPAL -- INICIO*/
 
@@ -291,94 +389,20 @@ body {
 
 /*COPROPIEDADES -- FINAL*/
 
-/*FOOTER -- INICIO*/
+/*-- PAGINA INICIO -- FINAL --*/
 
-footer{
-    background-color: #1B3544;
-}
+/*-- PAGINA SERVICIOS -- INICIO --*/
 
-.footer-preguntas{
-    background-color: #9EAB92;
-    padding: 30px 5% 30px 5%;
-    display: flex;
-    width: 100%;
-}
+/*-- PAGINA SERVICIOS -- FINAL --*/
 
-.footer-preguntas div{
-    width: 100%;
-}
+/*-- PAGINA NOSOTROS -- INICIO --*/
 
-.footer-preguntas .t1{
-    color: #1B3544;
-    font-size: 30px;
-    font-weight: bold;
-}
+/*-- PAGINA NOSOTROS -- FINAL --*/
 
-.footer-preguntas .t2{
-    color: #1B3544;
-    font-size: 18px;
-}
+/*-- PAGINA CONTACTO -- INICIO --*/
 
-.boton3{
-    background-color: #305e77;
-    border-color: #305e77;
-    color: #fff;
-    font-size: 18px;
-    padding: 10px 10px 10px 10px;
-    margin-top: 10px;
-    cursor: pointer;
-    border-radius: 8px;
-}
+/*-- PAGINA CONTACTO -- FINAL --*/
 
-.verde-f2 img{
-    height: 250px;
-}
+/*-- PAGINA FAQ -- INICIO --*/
 
-.footer-logo{
-    padding: 50px 5% 50px 5%;
-}
-
-.footer-menu{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-    padding: 50px 5% 50px 5%;
-}
-
-.footer-menu .footer-menu2{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.footer-menu .footer-menu2 li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    display: block;
-    padding: 0px 20px;
-    letter-spacing: 1.5px;
-}
-
-.footer-menu .footer-menu2 li :hover{
-    color: #9EAB92;
-    font-size: 20px;
-    cursor: pointer;
-    text-decoration: overline;
-    transition: 0.2s;
-}
-
-.footer-copy{
-    padding: 20px 5% 20px 5%;
-    background-color: #305e77;
-}
-
-.footer-copy p{
-    color: #fff;
-    text-align: center;
-}
-
-/*FOOTER -- FINAL*/
+/*-- PAGINA FAQ -- FINAL --*/

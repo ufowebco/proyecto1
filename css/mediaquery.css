@@ -1,0 +1,45 @@
+@media(min-width:768px){
+    .equipo{
+        padding: 80px 5% 80px 5%;
+        background-color: #DCDEE1;
+    }
+    
+    .equipo .equipo-verde{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(8 1fr);
+    }
+
+    .header-contacto .verde{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+    }
+
+    .header-contacto{
+        background-color: #1B3544;
+        padding: 10px 5% 10px 5%;
+    }
+
+    .bienvenidos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+            "imagen1 texto texto"
+            "imagen1 caja1 imagen2"
+            "imagen1 caja2 imagen2";
+    }
+}
+
+@media(min-width:1024px){
+    .equipo{
+        padding: 80px 5% 80px 5%;
+        background-color: #DCDEE1;
+    }
+    
+    .equipo .equipo-verde{
+        grid-template-columns: repeat(4,25%);
+        grid-template-rows: 1fr 1fr;
+    }
+}

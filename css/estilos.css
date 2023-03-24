@@ -233,13 +233,14 @@ footer{
 
 .verde .prof{
     color: #fff;
-    font-size: 25px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .verde h1{
     color: #fff;
-    font-size: 50px;
-    width: 50%;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .verde h1 span{
@@ -249,7 +250,6 @@ footer{
 .verde p{
     color: #fff;
     font-size: 16px;
-    width: 50%;
     padding: 10px 0px 20px 0px;
 }
 
@@ -268,7 +268,7 @@ footer{
 /*BIENVENIDOS -- INICIO*/
 
 .bienvenidos{
-    padding: 30px 5% 30px 5%;
+    padding: 80px 5% 80px 5%;
     display: grid;
     grid-template-columns: repeat(1, 90%);
     grid-template-rows: repeat(5, 1fr);
@@ -285,27 +285,90 @@ footer{
 }
 
 .bienv-verde img{
-    height: 100vh;
+    height: 300px;
+    border-radius: 8px
 }
 
 .bienvenidos .bienv-gris{
     grid-area: texto;
-    background-color: #305e77;
+}
+
+.bienvenidos .bienv-gris .bienv-titulo{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.bienvenidos .bienv-gris h2{
+    font-size: 30px;
+    color: #1B3544;
+    font-weight: bold;
+}
+
+.bienvenidos .bienv-gris p{
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .bienvenidos .bienv-experiencia{
     grid-area: caja1;
-    background-color: red;
+    background-color: #9EAB92;
+    width: 300px;
+    height: 130px;
+    border-radius: 8px;
+}
+
+.bienvenidos .bienv-experiencia div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 
+}
+
+.bienvenidos .bienv-experiencia div h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.bienvenidos .bienv-experiencia div p{
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .bienvenidos .bienv-satisfaccion{
     grid-area: caja2;
-    background-color: yellow;
+    background-color: #9EAB92;
+    width: 300px;
+    height: 130px;
+    border-radius: 8px;
+}
+
+.bienvenidos .bienv-satisfaccion div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.bienvenidos .bienv-satisfaccion div h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.bienvenidos .bienv-satisfaccion div p{
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .bienvenidos .bienv-asurbe{
     grid-area: imagen2;
-    background-color: brown;
+    display: flex;
+}
+
+.bienv-asurbe img{
+    height: 250px
 }
 
 /*BIENVENIDOS -- FINAL*/
@@ -358,6 +421,10 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.caja-servicios:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .caja-servicios h3{

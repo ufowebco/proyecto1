@@ -17,50 +17,29 @@ body {
 
 /*NAVEGADOR PRINCIPAL -- INICIO*/
 
-.separacion-menu{
-    padding: 10px;
-    margin: 3px 5% 3px 5%;
-}
-
-.header-azul{
-    display: flex;
-}
-
-.navegador .logo-menu img{
-    height: 100px;
-    object-fit: cover;
-}
-
-.navegador{
+.caja-header{
     background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
+    margin: 0px 5% 0px 5%;
+    padding: 0px 0px 0px 0px;
 }
 
-.navegador .menu{
-    list-style: none;
-    display: flex;
+.navbar .container-fluid{
+    background-color: #fff;
+}
+
+.container-fluid img{
+    height: 70px;
+}
+
+.collapse{
     justify-content: end;
+    align-items: end;
 }
 
-.navegador .menu li a{
+.nav-item .nav-link{
+    font-size: 16px;
     color: #000000;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    display: block;
-    padding: 0px 20px;
-    letter-spacing: 1.5px;
-}
-
-.navegador .menu li :hover{
-    color: #9EAB92;
-    font-size: 20px;
-    cursor: pointer;
-    text-decoration: overline;
-    transition: 0.2s;
+    text-align: center;
 }
 
 /*NAVEGADOR PRINCIPAL -- FINAL*/
@@ -310,33 +289,29 @@ footer{
     padding: 100px 5% 100px 5%;
 }
 
-.verde img{
-    height: 100px;
-    padding-right: 20px;
-}
-
-.verde div{
+.prof-verde div{
     display: flex;
-    align-items: end;
+    align-items: start;
 }
 
-.verde .prof{
+.prof-verde .prof{
     color: #fff;
     font-size: 16px;
     font-weight: 700;
+    margin-left: 15px;
 }
 
-.verde h1{
+.prof-verde h1{
     color: #fff;
     font-size: 35px;
     font-weight: bold;
 }
 
-.verde h1 span{
+.prof-verde h1 span{
     color: #9EAB92;
 }
 
-.verde p{
+.prof-verde p{
     color: #fff;
     font-size: 16px;
     padding: 10px 0px 20px 0px;

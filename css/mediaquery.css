@@ -1,5 +1,17 @@
 @media(min-width:768px){
 
+    /*HEADER*/
+
+    .container-fluid img{
+        height: 100px;
+    }
+
+    .nav-item .nav-link{
+        font-size: 23px;
+        color: #000000;
+        text-align: center;
+    }
+
     /*FOOTER*/
 
     .footer-preguntas{
@@ -33,18 +45,18 @@
 
     /*BANNER PRINCIAPAL*/
 
-    .verde .prof{
+    .prof-verde .prof{
         color: #fff;
         font-size: 25px;
         font-weight: 700;
     }
 
-    .verde h1{
+    .prof-verde h1{
         font-size: 50px;
         width: 50%;
     }
 
-    .verde p{
+    .prof-verde p{
         width: 50%;
     }
 

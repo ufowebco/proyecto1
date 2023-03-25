@@ -16,7 +16,7 @@
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas: 
             "imagen1    caja1   caja2"
-            "caja3      redes1  redes1"       
+            "caja3      redes1  redes1";
     }
 
     .footer-caja1{
@@ -97,6 +97,20 @@
         padding: 10px 5% 10px 5%;
     }
 
+    /*FACTOR*/
+    .factor{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+            "texto1 texto2"
+            "texto1 imagen1"
+            "texto1 imagen1";
+    }
+    .factor-icono p{
+        font-size: 30px;
+        margin-left: 30px;
+    }
     
 }
 

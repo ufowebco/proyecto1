@@ -536,8 +536,15 @@ footer{
     justify-content: center;
 }
 
+.equipo-boton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
 
-.equipo .boton2{
+.equipo-boton .boton1{
     background-color: #9EAB92;
     text-decoration: none;
 }
@@ -547,8 +554,138 @@ footer{
 
 /*FACTOR DIFERENCIADOR -- INICIO*/
 
+.factor-caja1{
+    background-image: url(../images/imagenes/imagen-madrigalph\ \(8\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;    
+}
+
+.factor-fondo{
+    background-color: #305e77;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    padding: 50px;
+}
+
 .factor{
-    padding: 80px 5% 80px 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+        "texto1"
+        "texto1"
+        "texto1"
+        "texto2"
+        "imagen1";
+}
+
+.factor .factor-caja1{
+    grid-area: texto1;
+}
+
+.factor-difer h6{
+    color: #9EAB92;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 100;
+}
+
+.factor-difer p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.factor .factor-personal{
+    grid-area: texto3;
+}
+
+.factor-personal{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 100px 0px 25px 25px;
+}
+
+.factor-personal .fc-01 h5{
+    background-color: #fff;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.fc-01{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.fc-personal h6{
+    font-size: 25px;
+    color: #fff;
+}
+
+.fc-personal p{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.factor .factor-valores{
+    grid-area: texto4;
+}
+
+.factor-valores{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 25px 0px 25px 25px;
+}
+
+.factor-valores .fc-02 h5{
+    background-color: #fff;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.fc-02{
+    width: 86px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.fc-agregado h6{
+    font-size: 25px;
+    color: #fff;
+}
+
+.fc-agregado p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.factor .factor-icono{
+    grid-area: texto2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9EAB92;
+}
+
+.factor-icono p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.factor .factor-imagen{
+    grid-area: imagen1;
+}
+
+.factor-imagen img{
+    width: 100%;
 }
 
 /*FACTOR DIFERENCIADOR -- FINAL*/
@@ -577,6 +714,7 @@ footer{
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 1.5px;
+    margin-bottom: 70px;
 }
 
 .cop-verde {

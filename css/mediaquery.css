@@ -1,5 +1,36 @@
 @media(min-width:768px){
 
+    /*FOOTER*/
+
+    .footer-preguntas{
+        flex-direction: row;
+    }
+
+    .footer-preguntas .t1{
+        font-size: 35px;
+    }
+
+    .footer-logo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "imagen1    caja1   caja2"
+            "caja3      redes1  redes1"       
+    }
+
+    .footer-caja1{
+        margin: 15px 0px 70px 0px;
+    }
+
+    .footer-caja2{
+        margin: 15px 0px 70px 0px;
+    }
+
+    .footer-caja3{
+        margin: 15px 0px 70px 0px;
+    }
+
     /*BANNER PRINCIAPAL*/
 
     .verde .prof{
@@ -28,10 +59,12 @@
             "imagen1 caja1 imagen2"
             "imagen1 caja2 imagen2";
     }
+    
     .bienv-verde img{
         height: 80vh;
         margin-right: 60px;
     }
+
     .bienvenidos .bienv-experiencia{
         grid-area: caja1;
         background-color: #9EAB92;
@@ -68,6 +101,24 @@
 }
 
 @media(min-width:1024px){
+
+    /*FOOTER*/
+
+    .footer-preguntas .t1{
+        font-size: 40px;
+    }
+
+    .footer-logo{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "imagen1    caja1   caja2   caja3"
+            "imagen1    redes1  redes1  redes1"
+    }
+
+    /*EQUIPO*/
+
     .equipo{
         padding: 80px 5% 80px 5%;
         background-color: #DCDEE1;

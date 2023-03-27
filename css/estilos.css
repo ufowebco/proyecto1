@@ -1,4 +1,4 @@
-/*RESETEO*/
+/* -- RESETEO -- */
 
 *{
     margin: 0;
@@ -13,9 +13,9 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;500&family=Poppins:wght@300&display=swap');
 
-/*FIN RESETEO*/
+/* -- FIN RESETEO -- */
 
-/*NAVEGADOR PRINCIPAL -- INICIO*/
+/* -- NAVEGADOR PRINCIPAL -- INICIO -- */
 
 .caja-header{
     background-color: #fff;
@@ -42,9 +42,9 @@ body {
     text-align: center;
 }
 
-/*NAVEGADOR PRINCIPAL -- FINAL*/
+/* -- NAVEGADOR PRINCIPAL -- FINAL -- */
 
-/*NAVEGADOR CONTACTO -- INICIO*/
+/* -- NAVEGADOR CONTACTO -- INICIO -- */
 
 .header-contacto{
     background-color: #1B3544;
@@ -77,9 +77,9 @@ body {
     margin-right: 15px;
 }
 
-/*NAVEGADOR CONTACTO -- FINAL*/
+/* -- NAVEGADOR CONTACTO -- FINAL -- */
 
-/*FOOTER -- INICIO*/
+/* -- FOOTER -- INICIO -- */
 
     /*ALGUNA CONSULTA*/
 footer{
@@ -258,9 +258,9 @@ footer{
     margin: 50px 0px 0px 0px;
 }
 
-/*FOOTER -- FINAL*/
+/* -- FOOTER -- FINAL -- */
 
-/*TITULOS DE PAGINAS -- INICIO*/
+/* -- TITULOS DE PAGINAS -- INTERNAS -- */
 
 .titulo-pagina{
     padding: 50px 5% 50px 5%;
@@ -274,11 +274,11 @@ footer{
     font-size: 35px;
 }
 
-/*TITULO DE PAGINA -- FINAL*/
+/* -- TITULO DE PAGINA -- FINAL -- */
 
 /*-- PAGINA INICIO -- INICIO --*/
 
-/*BANNER PRINCIPAL -- INICIO*/
+    /*BANNER PRINCIPAL -- INICIO*/
 
 .profesionales{
     background-image: linear-gradient(104deg, #305e77 0%, rgba(7, 7, 7, 0.3) 100%), url(../images/banners/banner1-madrigalph\ \(2\).jpg);
@@ -327,9 +327,9 @@ footer{
     cursor: pointer;
 }
 
-/*BANNER PRINCIPAL -- FINAL*/
+    /*BANNER PRINCIPAL -- FINAL*/
 
-/*BIENVENIDOS -- INICIO*/
+    /*BIENVENIDOS -- INICIO*/
 
 .bienvenidos{
     padding: 80px 5% 80px 5%;
@@ -435,9 +435,9 @@ footer{
     height: 250px
 }
 
-/*BIENVENIDOS -- FINAL*/
+    /*BIENVENIDOS -- FINAL*/
 
-/*NUESTRO EQUIPO DE TRABAJO -- INICIO*/
+    /*NUESTRO EQUIPO DE TRABAJO -- INICIO*/
 
 .equipo{
     padding: 80px 5% 80px 5%;
@@ -525,9 +525,9 @@ footer{
 }
 
 
-/*NUESTRO EQUIPO DE TRABAJO -- FINAL*/
+    /*NUESTRO EQUIPO DE TRABAJO -- FINAL*/
 
-/*FACTOR DIFERENCIADOR -- INICIO*/
+    /*FACTOR DIFERENCIADOR -- INICIO*/
 
 .factor-caja1{
     background-image: url(../images/imagenes/imagen-madrigalph\ \(8\).jpg);
@@ -665,7 +665,7 @@ footer{
 
 /*FACTOR DIFERENCIADOR -- FINAL*/
 
-/*COPROPIEDADES -- INICIO*/
+    /*COPROPIEDADES -- INICIO*/
 
 .copropiedades{
     padding: 80px 5% 80px 5%;
@@ -730,11 +730,110 @@ footer{
     justify-content: center;
 }
 
-/*COPROPIEDADES -- FINAL*/
+    /*COPROPIEDADES -- FINAL*/
 
 /*-- PAGINA INICIO -- FINAL --*/
 
 /*-- PAGINA SERVICIOS -- INICIO --*/
+
+    /*TITUO SERVICIOS*/
+
+.servicio-t1{
+    padding: 40PX 5% 10px 5%;
+}
+
+.servicio-t1 .t1{
+    text-align: center;
+    color: #9EAB92;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.servicio-t1 .t1 span{
+    color: #305e77;
+    letter-spacing: 1.5px;
+}
+
+.servicio-t1 .t2{
+    text-align: center;
+    color: #1B3544;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+    /*CAJA SERVICIO*/
+
+.pagina-servicios{
+    padding: 80px 5% 150px 5%;
+    display: grid;        
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+        "caja1"
+        "caja2"
+        "caja3"
+        "caja4"
+        "caja5"
+        "caja6";
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-servicios img{
+    width: 150px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.pagina-servicios .caja-1{
+    grid-area: caja1;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.pagina-servicios .caja-2{
+    grid-area: caja2;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.pagina-servicios .caja-3{
+    grid-area: caja3;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.pagina-servicios .caja-4{
+    grid-area: caja4;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.pagina-servicios .caja-5{
+    grid-area: caja5;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.pagina-servicios .caja-6{
+    grid-area: caja6;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
 
 /*-- PAGINA SERVICIOS -- FINAL --*/
 
@@ -744,8 +843,74 @@ footer{
 
 /*-- PAGINA CONTACTO -- INICIO --*/
 
+    /*CAJA CONTACTO*/
+
+.contacto{
+    padding: 80px 5% 50px 5%;
+    display: grid;        
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: 
+        "texto1 formulario1"
+        "texto2 formulario1"
+        "texto3 formulario1"
+        "texto4 formulario1"
+        "texto5 formulario1"
+        "texto6 formulario1"
+        "texto7 formulario1";
+    }
+
+.contacto .medios h3{
+    grid-area: texto1;
+    background-color: red;
+}
+
+.contacto .medios h4{
+    grid-area: texto2;
+    background-color: blue;
+}
+
+.contacto .medios .medios-texto{
+    grid-area: texto3;
+    background-color: yellow;
+}
+
+.contacto .medios .medios-telefono{
+    grid-area: texto4;
+    background-color: aqua;
+}
+
+.contacto .medios .medios-direccion{
+    grid-area: texto5;
+    background-color: red;
+}
+
+.contacto .medios .horarios-semana{
+    grid-area: texto6;
+    background-color: blue;
+}
+
+.contacto .medios .horarios-fines{
+    grid-area: texto7;
+    background-color: yellow;
+}
+
+.formulario{
+    grid-area: formulario1;
+    background-color: #305e77;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
 /*-- PAGINA CONTACTO -- FINAL --*/
 
 /*-- PAGINA FAQ -- INICIO --*/
+
+    /*ACORDEON*/
+
+.accordion{
+    padding: 50px 5% 100px 5%;
+}
 
 /*-- PAGINA FAQ -- FINAL --*/

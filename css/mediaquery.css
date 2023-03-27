@@ -123,7 +123,24 @@
         font-size: 30px;
         margin-left: 30px;
     }
-    
+
+    /*PAGINA SERVICIOS*/
+
+    .pagina-servicios{
+        padding: 80px 5% 150px 5%;
+        display: grid;        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+            "caja1 caja2"
+            "caja3 caja4"
+            "caja5 caja6";
+        gap: 30px;
+    }
+
+    .pagina-servicios img{
+        width: 250px;
+    }
 }
 
 @media(min-width:1024px){
@@ -153,5 +170,18 @@
     .equipo .equipo-verde{
         grid-template-columns: repeat(4,25%);
         grid-template-rows: 1fr 1fr;
+    }
+
+    /*PAGINA SERVICIOS*/
+
+    .pagina-servicios{
+        padding: 80px 5% 150px 5%;
+        display: grid;        
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "caja1 caja2 caja3"
+            "caja4 caja5 caja6";
+        gap: 50px;
     }
 }

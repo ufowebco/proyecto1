@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
     font-family: 'Outfit', sans-serif;
@@ -14,198 +18,6 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;500&family=Poppins:wght@300&display=swap');
 
 /* -- FIN RESETEO -- */
-
-/* -- MEDIA QUERY -- */
-
-@media(min-width:768px){
-
-    /*HEADER*/
-
-    .container-fluid img{
-        height: 100px;
-    }
-
-    .nav-item .nav-link{
-        font-size: 23px;
-        color: #000000;
-        text-align: center;
-    }
-
-    /*FOOTER*/
-
-    .footer-preguntas{
-        flex-direction: row;
-    }
-
-    .footer-preguntas .t1{
-        font-size: 35px;
-    }
-
-    .footer-logo{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: 
-            "imagen1    caja1   caja2"
-            "caja3      redes1  redes1";
-    }
-
-    .footer-caja1{
-        margin: 15px 0px 70px 0px;
-    }
-
-    .footer-caja2{
-        margin: 15px 0px 70px 0px;
-    }
-
-    .footer-caja3{
-        margin: 15px 0px 70px 0px;
-    }
-
-    /*BANNER PRINCIAPAL*/
-
-    .prof-verde .prof{
-        color: #fff;
-        font-size: 25px;
-        font-weight: 700;
-    }
-
-    .prof-verde h1{
-        font-size: 50px;
-        width: 50%;
-    }
-
-    .prof-verde p{
-        width: 50%;
-    }
-
-    /*BIENVENIDOS*/
-
-    .bienvenidos{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: 
-            "imagen1 texto texto"
-            "imagen1 caja1 imagen2"
-            "imagen1 caja2 imagen2";
-    }
-    
-    .bienv-verde img{
-        height: 80vh;
-        margin-right: 60px;
-    }
-
-    .bienvenidos .bienv-experiencia{
-        grid-area: caja1;
-        background-color: #9EAB92;
-        width: 300px;
-        height: 130px;
-        border-radius: 8px;
-    }
-
-    /*EQUIPO*/
-
-    .equipo{
-        padding: 80px 5% 80px 5%;
-        background-color: #DCDEE1;
-    }
-    
-    .equipo .equipo-verde{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(8 1fr);
-    }
-
-    .header-contacto .verde{
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-        justify-content: center;
-    }
-
-    .header-contacto{
-        background-color: #1B3544;
-        padding: 10px 5% 10px 5%;
-    }
-
-    /*FACTOR*/
-    .factor{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: 
-            "texto1 texto2"
-            "texto1 imagen1"
-            "texto1 imagen1";
-    }
-    .factor-icono p{
-        font-size: 30px;
-        margin-left: 30px;
-    }
-
-    /*PAGINA SERVICIOS*/
-
-    .pagina-servicios{
-        padding: 80px 5% 150px 5%;
-        display: grid;        
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: 
-            "caja1 caja2"
-            "caja3 caja4"
-            "caja5 caja6";
-        gap: 30px;
-    }
-
-    .pagina-servicios img{
-        width: 250px;
-    }
-}
-
-@media(min-width:1024px){
-
-    /*FOOTER*/
-
-    .footer-preguntas .t1{
-        font-size: 40px;
-    }
-
-    .footer-logo{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: 
-            "imagen1    caja1   caja2   caja3"
-            "imagen1    redes1  redes1  redes1"
-    }
-
-    /*EQUIPO*/
-
-    .equipo{
-        padding: 80px 5% 80px 5%;
-        background-color: #DCDEE1;
-    }
-    
-    .equipo .equipo-verde{
-        grid-template-columns: repeat(4,25%);
-        grid-template-rows: 1fr 1fr;
-    }
-
-    /*PAGINA SERVICIOS*/
-
-    .pagina-servicios{
-        padding: 80px 5% 150px 5%;
-        display: grid;        
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: 
-            "caja1 caja2 caja3"
-            "caja4 caja5 caja6";
-        gap: 50px;
-    }
-}
-
-/* -- FIN -- MEDIA QUERY -- */
 
 /* -- NAVEGADOR PRINCIPAL -- INICIO -- */
 
@@ -275,7 +87,9 @@ body {
 
     /*ALGUNA CONSULTA*/
 footer{
-    background-color: #1B3544;
+    background: #1B3544;  
+    background: -webkit-linear-gradient(to bottom, #305e77, #1B3544);
+    background: linear-gradient(to bottom, #305e77, #1B3544);
 }
 
 .footer-preguntas{
@@ -473,7 +287,7 @@ footer{
     /*BANNER PRINCIPAL -- INICIO*/
 
 .profesionales{
-    background-image: linear-gradient(104deg, #305e77 0%, rgba(7, 7, 7, 0.3) 100%), url(../images/banners/banner1-madrigalph\ \(2\).jpg);
+    background-image: linear-gradient(104deg, #305e77 0%, rgba(7, 7, 7, 0.3) 100%), url(../images/banners/banner1-madrigalph-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -491,6 +305,21 @@ footer{
     font-size: 16px;
     font-weight: 700;
     margin-left: 15px;
+    animation: typing 2s steps(22), blink .5s step-end infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
 
 .prof-verde h1{
@@ -527,7 +356,7 @@ footer{
     padding: 80px 5% 80px 5%;
     display: grid;
     grid-template-columns: repeat(1, 90%);
-    grid-template-rows: repeat(5, 1fr);
+    gap: 20px;
     grid-template-areas: 
         "imagen1"
         "texto"
@@ -722,7 +551,7 @@ footer{
     /*FACTOR DIFERENCIADOR -- INICIO*/
 
 .factor-caja1{
-    background-image: url(../images/imagenes/imagen-madrigalph\ \(8\).jpg);
+    background-image: url(../images/imagenes/imagen-madrigalph-8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;    
@@ -752,8 +581,8 @@ footer{
     grid-area: texto1;
 }
 
-.factor-difer h6{
-    color: #9EAB92;
+.factor-difer h5{
+    color: #fff;
     font-size: 18px;
     font-weight: 600;
     opacity: 100;
@@ -928,10 +757,10 @@ footer{
 
 /*-- PAGINA SERVICIOS -- INICIO --*/
 
-    /*TITUO SERVICIOS*/
+    /*TITULO SERVICIOS*/
 
 .servicio-t1{
-    padding: 40px 5% 10px 5%;
+    padding: 40px 0 10px 0;
 }
 
 .servicio-t1 .t1{
@@ -974,7 +803,7 @@ footer{
 }
 
 .pagina-servicios img{
-    width: 150px;
+    width: 250px;
     align-items: center;
     margin-bottom: 25px;
 }
@@ -1037,62 +866,84 @@ footer{
 
     /*CAJA CONTACTO*/
 
-.contacto{
+.contenedor-formulario{
     padding: 80px 5% 50px 5%;
-    display: grid;        
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    grid-template-areas: 
-        "texto1 formulario1"
-        "texto2 formulario1"
-        "texto3 formulario1"
-        "texto4 formulario1"
-        "texto5 formulario1"
-        "texto6 formulario1"
-        "texto7 formulario1";
-    }
-
-.contacto .medios h3{
-    grid-area: texto1;
-    background-color: red;
 }
 
-.contacto .medios h4{
-    grid-area: texto2;
-    background-color: blue;
-}
-
-.contacto .medios .medios-texto{
-    grid-area: texto3;
-    background-color: yellow;
-}
-
-.contacto .medios .medios-telefono{
-    grid-area: texto4;
-    background-color: aqua;
-}
-
-.contacto .medios .medios-direccion{
-    grid-area: texto5;
-    background-color: red;
-}
-
-.contacto .medios .horarios-semana{
-    grid-area: texto6;
-    background-color: blue;
-}
-
-.contacto .medios .horarios-fines{
-    grid-area: texto7;
-    background-color: yellow;
-}
-
-.formulario{
-    grid-area: formulario1;
+.caja-formulario{
     background-color: #305e77;
-    display: flex;
-    flex-direction: column;
-    height: 500px;
+    padding: 40px;
+    box-shadow: 7px 3px 37px rgba(7, 7, 7, 0.3);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.nombre-form{
+    margin-bottom: 20px;
+}
+
+.nombre-form input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.telefono-form{
+    margin-bottom: 20px;
+}
+
+.telefono-form input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.email-form{
+    margin-bottom: 20px;
+}
+
+.email-form input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.tipomensaje-form{
+    margin-bottom: 20px;
+}
+
+.tipomensaje-form input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.tipocliente-form{
+    margin-bottom: 20px;
+}
+
+.tipocliente-form input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.asunto-form{
+    margin-bottom: 20px;
+}
+
+.asunto-form input{
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.terminos-form{
+    margin-bottom: 20px;
+}
+
+.enviar-form{
+    border-radius: 8px;
+    padding: 5px;
 }
 
 /*-- PAGINA CONTACTO -- FINAL --*/
@@ -1106,3 +957,195 @@ footer{
 }
 
 /*-- PAGINA FAQ -- FINAL --*/
+
+/* -- MEDIA QUERY -- */
+
+@media(min-width:768px){
+
+    /*HEADER*/
+
+    .container-fluid img{
+        height: 100px;
+    }
+
+    .nav-item .nav-link{
+        font-size: 23px;
+        color: #000000;
+        text-align: center;
+    }
+
+    /*FOOTER*/
+
+    .footer-preguntas{
+        flex-direction: row;
+    }
+
+    .footer-preguntas .t1{
+        font-size: 35px;
+    }
+
+    .footer-logo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "imagen1    caja1   caja2"
+            "caja3      redes1  redes1";
+    }
+
+    .footer-caja1{
+        margin: 15px 0px 70px 0px;
+    }
+
+    .footer-caja2{
+        margin: 15px 0px 70px 0px;
+    }
+
+    .footer-caja3{
+        margin: 15px 0px 70px 0px;
+    }
+
+    /*BANNER PRINCIAPAL*/
+
+    .prof-verde .prof{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .prof-verde h1{
+        font-size: 50px;
+        width: 50%;
+    }
+
+    .prof-verde p{
+        width: 50%;
+    }
+
+    /*BIENVENIDOS*/
+
+    .bienvenidos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+            "imagen1 texto texto"
+            "imagen1 caja1 imagen2"
+            "imagen1 caja2 imagen2";
+    }
+    
+    .bienv-verde img{
+        height: 80vh;
+        margin-right: 60px;
+    }
+
+    .bienvenidos .bienv-experiencia{
+        grid-area: caja1;
+        background-color: #9EAB92;
+        width: 300px;
+        height: 130px;
+        border-radius: 8px;
+    }
+
+    /*EQUIPO*/
+
+    .equipo{
+        padding: 80px 5% 80px 5%;
+        background-color: #DCDEE1;
+    }
+    
+    .equipo .equipo-verde{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(8 1fr);
+    }
+
+    .header-contacto .verde{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+    }
+
+    .header-contacto{
+        background-color: #1B3544;
+        padding: 10px 5% 10px 5%;
+    }
+
+    /*FACTOR*/
+    .factor{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+            "texto1 texto2"
+            "texto1 imagen1"
+            "texto1 imagen1";
+    }
+    .factor-icono p{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    /*PAGINA SERVICIOS*/
+
+    .pagina-servicios{
+        padding: 80px 5% 150px 5%;
+        display: grid;        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+            "caja1 caja2"
+            "caja3 caja4"
+            "caja5 caja6";
+        gap: 30px;
+    }
+
+    .pagina-servicios img{
+        width: 250px;
+    }
+}
+
+@media(min-width:1024px){
+
+    /*FOOTER*/
+
+    .footer-preguntas .t1{
+        font-size: 40px;
+    }
+
+    .footer-logo{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "imagen1    caja1   caja2   caja3"
+            "imagen1    redes1  redes1  redes1"
+    }
+
+    /*EQUIPO*/
+
+    .equipo{
+        padding: 80px 5% 80px 5%;
+        background-color: #DCDEE1;
+    }
+    
+    .equipo .equipo-verde{
+        grid-template-columns: repeat(4,25%);
+        grid-template-rows: 1fr 1fr;
+    }
+
+    /*PAGINA SERVICIOS*/
+
+    .pagina-servicios{
+        padding: 80px 5% 150px 5%;
+        display: grid;        
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "caja1 caja2 caja3"
+            "caja4 caja5 caja6";
+        gap: 50px;
+    }
+}
+
+/* -- FIN -- MEDIA QUERY -- */

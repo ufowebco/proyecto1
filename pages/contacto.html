@@ -60,21 +60,29 @@
         <section class="contenedor-formulario container-fluid">
             <div class="row">
                 <!-- CAJA CONTACTO --> 
-                <div class="col-sm-12 col-md-12 col-lg-6">
-                    <h3>MEDIOS DE</h3>
-                    <h4>Contacto</h4>
+                <div class="caja-contacto col-sm-12 col-md-12 col-lg-6">
+                    <h3 class="t1">- <span>MEDIOS DE</span> -</h3>
+                    <h4 class="t2">Contacto</h4>
                     <p class="medios-texto">Conocer la opinión de nuestros clientes es muy importante para nosotros, extendemos la invitación a llenar nuestro formulario para solicitar información sobre los productos y servicios que ofrecemos. A la brevedad posible, uno de nuestros representantes atenderá la solicitud.</p>
-                    <div class="medios-telefono">
-                        <img src="" alt="">
+                    <div class="medios-telefono align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg>
                         <p>301 291 8726</p>
                     </div>
-                    <div class="horarios-semana">
-                        <p>Lunes a Viernes</p>
-                        <p>09:00 Am - 05:00 Pm</p>
+                    <div class="medios-telefono align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <p>Cl 53 # 50-20 Oficina 312 (Medellín | Colombia)</p>
                     </div>
-                    <div class="horarios-fines">
-                        <p>Sábados y Domingos</p>
-                        <p>Sin atención</p>
+                    <div class="horarios-semana row">
+                        <h4 class="col-sm-12 col-md-6 col-lg-6">Lunes a Viernes</h4>
+                        <h5 class="col-sm-12 col-md-6 col-lg-6">09:00 Am - 05:00 Pm</h5>
+                    </div>
+                    <div class="horarios-fines row">
+                        <h4 class="col-sm-12 col-md-6 col-lg-6">Sábados y Domingos</h4>
+                        <h5 class="col-sm-12 col-md-6 col-lg-6">Sin atención</h5>
                     </div>
                 </div>
                 <!-- FORMULARIO DE CONTACTO -->
@@ -108,16 +116,19 @@
                             </select>
                         </label>
                         <label class="asunto-form col-12">Asunto:
-                            <textarea name="mensaje" cols="72%" rows="4" placeholder="Dejános tu mensaje" required></textarea>
+                            <textarea class="col-12" rows="4" name="mensaje" placeholder="Dejános tu mensaje" required></textarea>
                         </label>
-                        <label class="terminos-form col-sm-12 col-md-6 col-lg-6">
-                            <input type="checkbox" name="acepto" value="si" required> 
+                        <label class="terminos-form col-sm-12 col-md-6 col-lg-6 align-items-center justify-content-center">
+                            <input class="" type="checkbox" name="acepto" value="si" required> 
                             Acepto términos y condiciones
                         </label>             
                         <input class="enviar-form col-sm-12 col-md-6 col-lg-6" type="submit" value="Enviar">
                     </form>
                 </div>
             </div>
+        </section>
+        <section class="mapa-google">
+            <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63464.95220957373!2d-75.66914296875002!3d6.1896486000000035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4683a0cfbebe8f%3A0x299ab5d7a3f4bc31!2sMadrigal%20PH%20SAS!5e0!3m2!1ses-419!2sco!4v1680225420920!5m2!1ses-419!2sco" width="1900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <!-- FOOTER -->   

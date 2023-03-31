@@ -864,11 +864,97 @@ footer{
 
 /*-- PAGINA CONTACTO -- INICIO --*/
 
+.contenedor-formulario{
+    padding: 20px 5% 130px 5%;
+}
+
     /*CAJA CONTACTO*/
 
-.contenedor-formulario{
-    padding: 80px 5% 50px 5%;
+.caja-contacto .t1{
+    color: #9EAB92;
+    font-size: 15px;
+    font-weight: bold;
 }
+
+.t1 span{
+    color: #305e77;
+    letter-spacing: 1.5px;
+}
+
+.caja-contacto .t2{
+    color: #1B3544;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 50px 0px;
+}
+
+.caja-contacto .medios-texto{
+    font-size: 16px;
+}
+
+.medios-telefono{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.medios-telefono .bi-telephone-fill{
+    background-color: #9EAB92;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+.medios-telefono .bi-geo-alt-fill{
+    background-color: #9EAB92;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+.medios-telefono p{
+    margin: 15px 0 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.horarios-semana{
+    margin-bottom: 35px;
+}
+
+.horarios-semana h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.horarios-semana h5{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.horarios-fines{
+    margin-bottom: 35px;
+}
+
+.horarios-fines h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.horarios-fines h5{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+    /*CAJA FORMULARIO*/
 
 .caja-formulario{
     background-color: #305e77;
@@ -912,7 +998,7 @@ footer{
     margin-bottom: 20px;
 }
 
-.tipomensaje-form input{
+.tipomensaje-form select{
     width: 100%;
     border-radius: 8px;
     padding: 5px;
@@ -922,7 +1008,7 @@ footer{
     margin-bottom: 20px;
 }
 
-.tipocliente-form input{
+.tipocliente-form select{
     width: 100%;
     border-radius: 8px;
     padding: 5px;
@@ -932,9 +1018,11 @@ footer{
     margin-bottom: 20px;
 }
 
-.asunto-form input{
+.asunto-form textarea{
     border-radius: 8px;
     padding: 5px;
+    box-sizing: content-box;
+    width: 100%;
 }
 
 .terminos-form{
@@ -944,6 +1032,11 @@ footer{
 .enviar-form{
     border-radius: 8px;
     padding: 5px;
+}
+
+.enviar-form:hover{
+    background-color: #9EAB92;
+    color: #fff;
 }
 
 /*-- PAGINA CONTACTO -- FINAL --*/
@@ -1103,6 +1196,39 @@ footer{
     .pagina-servicios img{
         width: 250px;
     }
+
+    /*CONTACTO*/
+
+    .medios-telefono{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+
+    .medios-telefono p{
+        margin: 0 0 0 20px;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: start;
+    }
+
+    .horarios-semana h4{
+        text-align: start;
+    }
+    
+    .horarios-semana h5{
+        text-align: start;
+    } 
+
+    .horarios-fines h4{
+        text-align: start;
+    }
+    
+    .horarios-fines h5{
+        text-align: start;
+    } 
 }
 
 @media(min-width:1024px){
@@ -1148,4 +1274,4 @@ footer{
     }
 }
 
-/* -- FIN -- MEDIA QUERY -- */
+/* -- FIN -- MEDIA QUERY --

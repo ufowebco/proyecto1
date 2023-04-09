@@ -26,16 +26,17 @@
             color: #fff;
             font-size: 35px;
             font-weight: bold;
+
+            span{
+                color: #9EAB92;
+            }
         }
     
-        h1 span{
-            color: #9EAB92;
-        }
-    
-        p{
+        h2{
             color: #fff;
             font-size: 18px;
             padding: 10px 0px 20px 0px;
+            margin: 10px 0px 0px 15px;
 
             @keyframes typing {
                 from {
@@ -48,6 +49,11 @@
                     border-color: transparent;
                 }
             }
+        }
+
+        p{
+            color: #fff;
+            font-size: 18px;
         }
 
         .boton1{

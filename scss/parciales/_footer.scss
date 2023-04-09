@@ -58,7 +58,8 @@ footer{
             align-items: center;
 
             img{
-                width: 250px;
+                width: 150px;
+                margin-bottom: 50px;
             }
         }
 
@@ -168,6 +169,13 @@ footer{
 
 /*** MEDIA QUERY ***/
 
+@media(max-width: 980px){
+    
+    .navegador-footer{
+        display: none;
+    }    
+}
+
 @media(min-width:768px){
 
     footer{
@@ -198,6 +206,12 @@ footer{
         
             .footer-caja3{
                 margin: 15px 0px 70px 0px;
+            }
+
+            .footer-verde{    
+                img{
+                    width: 250px;
+                }
             }
         }
     }

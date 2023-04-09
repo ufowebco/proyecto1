@@ -1188,10 +1188,28 @@ footer .footer-copy p {
     text-align: start;
   }
 }
-.accordion {
+.caja-faq {
   padding: 50px 5% 100px 5%;
 }
+.caja-faq img {
+  width: 300px;
+  margin-bottom: 50px;
+}
+.caja-faq .accordion-button:not(.collapsed) {
+  background-color: #9EAB93;
+  color: white;
+}
 
+@media (min-width: 768px) {
+  .caja-faq img {
+    width: 350px;
+  }
+}
+@media (min-width: 1080px) {
+  .caja-faq img {
+    width: 500px;
+  }
+}
 .caja-error {
   background-color: #A2B09A;
   height: 100vh;

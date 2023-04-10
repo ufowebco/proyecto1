@@ -1241,4 +1241,17 @@ footer .footer-preguntas .boton3:hover {
   background-color: white;
   color: #2F5369;
   border: 2px solid #2F5369;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #16222a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F87223;
+  border-radius: 4px;
 }/*# sourceMappingURL=estilos.css.map */

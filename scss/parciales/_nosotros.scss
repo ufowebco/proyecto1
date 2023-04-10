@@ -182,7 +182,7 @@
             
             @keyframes anim_circle-css {
                 to {
-                    stroke-dashoffset: 40;
+                    stroke-dashoffset: 60;
                 }
             }
             
@@ -194,7 +194,7 @@
             
             @keyframes anim_circle-scss {
                 to {
-                    stroke-dashoffset: 40;
+                    stroke-dashoffset: 80;
                 }
             }
             
@@ -206,7 +206,7 @@
             
             @keyframes anim_circle-js {
                 to {
-                    stroke-dashoffset: 40;
+                    stroke-dashoffset: 100;
                 }
             }
             
@@ -218,7 +218,7 @@
             
             @keyframes anim_circle-ts {
                 to {
-                    stroke-dashoffset: 40;
+                    stroke-dashoffset: 120;
                 }
             }
         }

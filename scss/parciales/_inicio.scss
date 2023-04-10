@@ -57,18 +57,7 @@
         }
 
         .boton1{
-            background-color: #9EAB92;
-            border-radius: 8px;
-            border-color: #9EAB92;
-            color: #000000;
-            font-size: 18px;
-            letter-spacing: 2px;
-            padding: 10px 30px 10px 30px;
-            cursor: pointer;
-
-            &:hover{
-                background-color: #fff;
-            }
+            @extend %baseboton1;
         }
     }
 }
@@ -255,17 +244,7 @@
         margin-top: 70px;
     
         .boton1{
-            background-color: #9EAB92;
-            text-decoration: none;
-            padding: 10px;
-            border-radius: 8px;
-            border-color: #9EAB92;
-            font-size: 20px;
-            letter-spacing: 2px;
-
-            &:hover{
-                background-color: #fff;
-            }
+            @extend %baseboton1;
         }
     }
 }

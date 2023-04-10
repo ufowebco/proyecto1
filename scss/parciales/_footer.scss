@@ -8,6 +8,7 @@ footer{
         padding: 30px 5% 30px 5%;
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 100%;
 
         div{
@@ -27,14 +28,7 @@ footer{
         }
 
         .boton3{
-            background-color: #305e77;
-            border-color: #305e77;
-            color: #fff;
-            font-size: 18px;
-            padding: 10px 30px 10px 30px;
-            margin-top: 28px;
-            cursor: pointer;
-            border-radius: 8px;
+            @extend %baseboton2;
         }
     }
 

@@ -600,6 +600,7 @@ footer .footer-copy p {
   justify-content: center;
   align-items: center;
   background-color: #9EAB92;
+  padding: 0 40px 0 40px;
 }
 .factor .factor-icono p {
   font-size: 20px;

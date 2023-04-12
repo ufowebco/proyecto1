@@ -1,33 +1,46 @@
-.caja-faq{
+.caja-padre-faq{
     padding: 50px 5% 100px 5%;
 
-    img{
-        width: 300px;
-        margin-bottom: 50px;
-    }
-
-    .accordion-button:not(.collapsed){
-        background-color: #9EAB93;
-        color: white;
-    }
-}
-
-@media(min-width:768px){
-
     .caja-faq{
+        max-width: 1280px;
+        margin: 0 auto;
     
         img{
-            width: 350px;
+            width: 300px;
+            margin-bottom: 50px;
+        }
+
+        .accordion-button{
+            font-size: 18px;
+        }
+    
+        .accordion-button:not(.collapsed){
+            background-color: #9EAB93;
+            color: white;
+            font-size: 20px;
+        }
+    }
+
+    @media(min-width:768px){
+
+        .caja-faq{
+        
+            img{
+                width: 350px;
+            }
+        }
+    }
+    
+    @media(min-width:1080px){
+    
+        .caja-faq{
+        
+            img{
+                width: 500px;
+            }
         }
     }
 }
 
-@media(min-width:1080px){
 
-    .caja-faq{
-    
-        img{
-            width: 500px;
-        }
-    }
-}
+

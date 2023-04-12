@@ -1,8 +1,16 @@
+.servicio-t1{
+    padding: 30px 5% 30px 5%;
+}
+
+.caja-padre-nost{
+    padding: 30px 5% 30px 5%;
+}
+
 .caja-nosotros{
     display: flex;
     flex-direction: column;
-    padding: 30px 5% 30px 5%;
-    gap: 80px;
+    max-width: 1280px;
+    margin: 0 auto;
 
     .caja-mision{
         width: 100%;
@@ -42,7 +50,9 @@
 }
 
 .caja-valores{
-    padding: 30px 5% 30px 5%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 50px;
 
         img{
             width: 180px;
@@ -230,7 +240,6 @@
     .caja-nosotros{
         display: flex;
         flex-direction: row;
-        padding: 30px 5% 30px 5%;
         gap: 80px;
     }
 }

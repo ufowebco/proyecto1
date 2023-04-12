@@ -3,13 +3,19 @@ footer{
     background: -webkit-linear-gradient(to bottom, #305e77, #1B3544);
     background: linear-gradient(to bottom, #305e77, #1B3544);
 
-    .footer-preguntas{
+    .caja-padre-preg{
         background-color: #9EAB92;
         padding: 30px 5% 30px 5%;
+    }
+
+    .footer-preguntas{
+        background-color: #9EAB92;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
 
         div{
             width: 100%;
@@ -32,8 +38,14 @@ footer{
         }
     }
 
+
+    .caja-padre-log{
+        padding: 100px 5% 30px 5%;
+    }
+
     .footer-logo{
-        padding: 80px 5% 50px 5%;
+        max-width: 1280px;
+        margin: 0 auto;
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(1, 90%);
@@ -150,6 +162,8 @@ footer{
     }    
 
     .footer-copy{
+        max-width: 1280px;
+        margin: 0 auto;
 
         p{
             font-size: 16px;

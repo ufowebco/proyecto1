@@ -23,7 +23,9 @@
 }
 
 .pagina-servicios{
-    padding: 80px 5% 150px 5%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 80px 150px 0;
     display: grid;        
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -44,12 +46,17 @@
         margin-bottom: 25px;
     }
 
+    p{
+        font-size: 18px;
+    }
+
     .caja-1{
         grid-area: caja1;
         padding: 30px;
         border-radius: 8px;
         text-align: center;
         box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+        min-height: 486px;
     }
 
     .caja-2{
@@ -58,6 +65,7 @@
         border-radius: 8px;
         text-align: center;
         box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+        min-height: 486px;
     }
 
     .caja-3{
@@ -66,6 +74,7 @@
         border-radius: 8px;
         text-align: center;
         box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+        min-height: 486px;
     }
 
     .caja-4{
@@ -74,6 +83,7 @@
         border-radius: 8px;
         text-align: center;
         box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+        min-height: 486px;
     }
 
     .caja-5{
@@ -82,6 +92,7 @@
         border-radius: 8px;
         text-align: center;
         box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+        min-height: 486px;
     }
 
     .caja-6{
@@ -90,6 +101,7 @@
         border-radius: 8px;
         text-align: center;
         box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+        min-height: 486px;
     }    
 }
 

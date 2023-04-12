@@ -7,6 +7,8 @@
     margin: 0 auto;
 
     .caja-contacto{
+    
+
         .t1{
             color: #9EAB92;
             font-size: 15px;
@@ -179,6 +181,10 @@
 }
 
 @media(min-width:768px){
+
+    .caja-contacto{
+        padding-right: 40px;
+    }
     
     .contenedor-formulario{
         .medios-telefono{

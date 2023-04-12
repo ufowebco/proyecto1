@@ -1174,6 +1174,9 @@ footer .footer-copy p {
 }
 
 @media (min-width: 768px) {
+  .caja-contacto {
+    padding-right: 40px;
+  }
   .contenedor-formulario .medios-telefono {
     display: flex;
     flex-direction: row;

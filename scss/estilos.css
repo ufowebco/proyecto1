@@ -1,34 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;500&family=Poppins:wght@300&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;500&family=Poppins:wght@300&display=swap");
 }
-
-html {
+* html {
   scroll-behavior: smooth;
 }
-
-body {
+* body {
   background-color: white;
   font-family: "Outfit", sans-serif;
 }
-
-::-moz-selection {
+* ::-moz-selection {
   background-color: #25d366;
   color: #000000;
 }
-
-::selection {
+* ::selection {
   background-color: #25d366;
   color: #000000;
 }
-
-.whatsapp {
+* .whatsapp {
   position: fixed;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   bottom: 20px;
   right: 20px;
   background-color: #25d366;
@@ -39,9 +33,8 @@ body {
   z-index: 100;
   box-shadow: 3px 3px 10px rgb(3, 3, 3);
 }
-
-.whatsapp-icon {
-  margin-top: 14px;
+* .whatsapp-icon {
+  margin-top: 9.5px;
 }
 
 .caja-header {

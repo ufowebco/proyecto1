@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../scss/estilos.css">    
 </head>
 <body>
@@ -58,14 +59,14 @@
     <main>
         <!-- BANNER TITULOS --> 
         <div class="titulo-pagina">
-            <h1>Servicios</h1>
+            <h1 data-aos="zoom-in" data-aos-duration="1000">Servicios</h1>
         </div>
         <!-- SERVICIOS --> 
         <section class="servicio-t1">
             <h5 class="t1">- <span>NUESTROS VALORES AGREGADOS NOS HACEN</span> -</h5>
             <h5 class="t2">Únicos en el Mercado</h5>
             <div class="caja-padre-serv">
-                <div class="pagina-servicios">
+                <div data-aos="zoom-in" data-aos-duration="1000" class="pagina-servicios">
                     <div class="caja-1">
                         <img src="../images/imagenes/imagen-madrigalph-12.jpg" alt="Administrador de Edificios">
                         <p>Administración de edificios, unidades, conjuntos residenciales, urbanizaciones, parcelaciones, fincas y todo tipo de bienes raices.</p>
@@ -97,7 +98,7 @@
     <!-- FOOTER -->   
     <footer>
         <div class="caja-padre-preg">
-            <div class="footer-preguntas">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="footer-preguntas">
                 <div>
                     <p class="t1">¿Tienes alguna pregunta? Déjanos un mensaje.</p>
                     <p class="t2">Nuestro equipo de profesionales está listo para atenderte</p>
@@ -106,7 +107,7 @@
             </div>
         </div>
         <div class="caja-padre-log">
-            <div class="footer-logo">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="footer-logo">
                 <div class="footer-verde">
                     <a href="../index.html"><img src="../images/logo/logo-madrigalph-1.png" alt="Logo Madrigal PH"></a>
                 </div>
@@ -186,5 +187,11 @@
         </nav>
     </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+    });
+</script>
 </body>
 </html>

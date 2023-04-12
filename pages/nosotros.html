@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../scss/estilos.css">    
 </head>
 <body>
@@ -58,16 +59,16 @@
     <main>
         <!-- BANNER TITULOS --> 
         <div class="titulo-pagina">
-            <h1>Nosotros</h1>
+            <h1 data-aos="zoom-in" data-aos-duration="1000">Nosotros</h1>
         </div>
         <section class="caja-padre-nost">
             <div class="caja-nosotros">
-                <div class="caja-mision">
+                <div data-aos="zoom-in" data-aos-duration="1000" class="caja-mision">
                     <img src="../images/imagenes/imagen-madrigalph-19.jpg" alt="imagen representando la mision de la empresa">
                     <h5>Misión</h5>
                     <p>Administrar de manera innovadora y transparente la propiedad horizontal en Medellin y Antioquia, generando seguridad y tranquilidad de propietarios y residentes, optimizar recursos para mantener zonas comunes en excelentes condiciones logrando así la valorización de la copropiedad.</p>
                 </div>
-                <div class="caja-vision">
+                <div data-aos="zoom-in" data-aos-duration="1000" class="caja-vision">
                     <img src="../images/imagenes/imagen-madrigalph-18.jpg" alt="imagen representando la vision de la empresa">
                     <h5>Visión</h5>
                     <p>En el año 2030 Madrigal Propiedad Horizontal será una empresa reconocida en el mercado por su transparencia, posicionamiento e innovación en la administración de la propiedad horizontal en Antioquia.</p>
@@ -77,7 +78,7 @@
         <section class="servicio-t1 container-fluid">
             <h5 class="t1">- <span>NUESTROS</span> -</h5>
             <h5 class="t2">Valores</h5>
-            <div class="caja-valores row text-center">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="caja-valores row text-center">
                 <div class="caja-imagen col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
                     <img src="../images/iconos/icono-madrigalph-11.png" alt="Servicios Madrigal PH">
                     <h6>Servicio</h6>
@@ -144,7 +145,7 @@
     <!-- FOOTER -->   
     <footer>
         <div class="caja-padre-preg">
-            <div class="footer-preguntas">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="footer-preguntas">
                 <div>
                     <p class="t1">¿Tienes alguna pregunta? Déjanos un mensaje.</p>
                     <p class="t2">Nuestro equipo de profesionales está listo para atenderte</p>
@@ -153,7 +154,7 @@
             </div>
         </div>
         <div class="caja-padre-log">
-            <div class="footer-logo">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="footer-logo">
                 <div class="footer-verde">
                     <a href="../index.html"><img src="../images/logo/logo-madrigalph-1.png" alt="Logo Madrigal PH"></a>
                 </div>
@@ -233,5 +234,11 @@
         </nav>
     </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+    });
+</script>
 </body>
 </html>

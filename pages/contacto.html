@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../scss/estilos.css">
 </head>
 <body>
@@ -58,14 +59,14 @@
     <main>
         <!-- BANNER TITULOS --> 
         <div class="titulo-pagina">
-            <h1>Contacto</h1>
+            <h1 data-aos="zoom-in" data-aos-duration="1000">Contacto</h1>
         </div>
         <!-- CONTACTO -->
         <section class="caja-padre-form">
             <div class="contenedor-formulario container-fluid">
                 <div class="row">
                     <!-- CAJA CONTACTO --> 
-                    <div class="caja-contacto col-sm-12 col-md-12 col-lg-6">
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="caja-contacto col-sm-12 col-md-12 col-lg-6">
                         <h3 class="t1">- <span>MEDIOS DE</span> -</h3>
                         <h4 class="t2">Contacto</h4>
                         <p class="medios-texto">Conocer la opinión de nuestros clientes es muy importante para nosotros, extendemos la invitación a llenar nuestro formulario para solicitar información sobre los productos y servicios que ofrecemos. A la brevedad posible, uno de nuestros representantes atenderá la solicitud.</p>
@@ -91,7 +92,7 @@
                         </div>
                     </div>
                     <!-- FORMULARIO DE CONTACTO -->
-                    <div class="caja-formulario col-sm-12 col-md-12 col-lg-6">
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="caja-formulario col-sm-12 col-md-12 col-lg-6">
                         <form class="formulario row">
                             <label class="nombre-form col-sm-12 col-md-6 col-lg-6">Nombre y Apellido: 
                                 <input type="text" name="nombre" placeholder="Nombre y Apellido" required>
@@ -140,7 +141,7 @@
     <!-- FOOTER -->   
     <footer>
         <div class="caja-padre-preg">
-            <div class="footer-preguntas">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="footer-preguntas">
                 <div>
                     <p class="t1">¿Tienes alguna pregunta? Déjanos un mensaje.</p>
                     <p class="t2">Nuestro equipo de profesionales está listo para atenderte</p>
@@ -149,7 +150,7 @@
             </div>
         </div>
         <div class="caja-padre-log">
-            <div class="footer-logo">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="footer-logo">
                 <div class="footer-verde">
                     <a href="../index.html"><img src="../images/logo/logo-madrigalph-1.png" alt="Logo Madrigal PH"></a>
                 </div>
@@ -229,5 +230,11 @@
         </nav>
     </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+    });
+</script>
 </body>
 </html>
